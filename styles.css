@@ -1,0 +1,33 @@
+body {
+  background: #edadc7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper h1 {
+  color: #d199b6;
+  font-size: 5.5rem;
+  text-align: center;
+}
+
+.sub-wrapper {
+  text-align: center;
+}
+
+.sub-wrapper input {
+  width: 10vw;
+  height: 5vh;
+  box-shadow: 5px 10px #c493b0;
+  font-size: 2rem;
+  color: #5c5d67;
+}
+
+.wrapper h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #a68ba5;
+}

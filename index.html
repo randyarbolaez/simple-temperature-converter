@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Temperature Converter</h1>
+      <form class="sub-wrapper" onsubmit="convertTemperature(event)">
+        <input type="number" id="temperature" />
+        <input class="btn" type="submit" value="Convert!" />
+      </form>
+      <h3 id="fahrenheit"></h3>
+      <h3 id="celsius"></h3>
+      <h3 id="kelvin"></h3>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
